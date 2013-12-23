@@ -11,6 +11,7 @@ Setup
 3. Add your existing .ssh/config contents into a file in the "ssh" folder to save any settings or other servers you have there
 4. Run `bundle install` to install the necessary gems
 5. Source the `bash-complete.sh` file from your `.bash_profile` to enable autocomplete
+6. Ensure you have the corresponding SSH private key in your `~/.ssh` folder that matches with the key listed on each EC2
 
 Usage
 -----

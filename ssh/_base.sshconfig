@@ -1,0 +1,4 @@
+Host *
+  ServerAliveInterval 60
+  ForwardAgent yes
+  IdentitiesOnly yes

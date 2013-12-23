@@ -1,0 +1,4 @@
+Host example
+  HostName 54.100.100.100
+  User ubuntu
+  IdentityFile ~/.ssh/example.aws.pem

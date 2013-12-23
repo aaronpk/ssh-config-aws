@@ -7,7 +7,7 @@ Setup
 -----
 
 1. Create a file in the "aws" folder to store your AWS credentials, one file per AWS account
-2. Ensure each server in your AWS account has a unique name, and add a "User" tag if the SSH username is different from "ubuntu"
+2. In your AWS account, ensure each server has a unique name, and add a "User" tag if the SSH username is different from "ubuntu"
 3. Add your existing .ssh/config contents into a file in the "ssh" folder to save any settings or other servers you have there
 4. Run `bundle install` to install the necessary gems
 5. Source the `bash-complete.sh` file from your `.bash_profile` to enable autocomplete
